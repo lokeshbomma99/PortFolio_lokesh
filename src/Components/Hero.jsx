@@ -125,7 +125,7 @@ const Hero = () => {
         setTimeout(() => {
             // 💡 3. Start Actual Download Here
             // यह URL आपके Resume फ़ाइल का सार्वजनिक पथ होना चाहिए (e.g., public/resume/Lokesh_Bomma_Resume.pdf)
-            const resumeUrl = './Resume.pdf'; 
+            const resumeUrl = './Lokesh_Bomma_Resume.pdf'; 
             
             // Create a temporary link element
             const link = document.createElement('a');
