@@ -13,11 +13,11 @@ const Header = () => {
                 <div className="size-6 text-primary">
                     {/* SVG Logo (Copied directly from your static HTML) */}
                     <div className='w-8 h-6 rounded-full flex items-center justify-center bg-white text-black'>
-                        <p className='font-medium '>LB</p>
+                        <a className='font-medium cursor-pointer'>LB</a>
 
                     </div>
                 </div>
-                < h2 className="text-white flex items-center justify-center text-lg font-bold leading-tight tracking-[-0.015em]">Lokesh Bomma</h2>
+                < a href='/' className="text-white flex items-center justify-center text-lg font-bold cursor-pointer leading-tight tracking-[-0.015em]">Lokesh Bomma</a>
             </div>
             {/* Navigation Links */}
             <div className="hidden lg:flex flex-1 justify-end items-center gap-8">
